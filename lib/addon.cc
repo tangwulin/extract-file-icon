@@ -225,9 +225,9 @@ std::vector<unsigned char> GetIcon(const std::string &name, int size,
                              sizeof(sfi), flag);
     HICON hIcon;
 
-    if (FAILED(hr)) {
-        return std::vector<unsigned char>{};
-    }
+//     if (FAILED(hr)) {
+//         return std::vector<unsigned char>{};
+//     }
 
     if (size == 16 || size == 32) {
         hIcon = sfi.hIcon;

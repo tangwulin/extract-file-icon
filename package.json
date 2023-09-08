@@ -1,12 +1,12 @@
 {
-  "name": "extract-file-icon",
+  "name": "extract-file-icon-fix",
   "description": "Get associated file icon",
-  "version": "0.3.2",
-  "author": "sentialx",
+  "version": "0.3.3",
+  "author": "sentialx,tangwulin",
   "bugs": {
-    "url": "https://github.com/sentialx/extract-file-icon/issues"
+    "url": "https://github.com/tangwulin/extract-file-icon/issues"
   },
-  "homepage": "https://github.com/sentialx/extract-file-icon",
+  "homepage": "https://github.com/tangwulin/extract-file-icon",
   "keywords": [
     "file",
     "icon",
@@ -17,7 +17,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sentialx/extract-file-icon.git"
+    "url": "https://github.com/tangwulin/extract-file-icon.git"
   },
   "scripts": {
     "install": "npm run rebuild",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@types/node": "12.12.9",
-    "node-gyp": "6.0.1",
+    "node-gyp": "9.4.0",
     "tslint": "5.20.1",
     "typescript": "3.7.2"
   },
